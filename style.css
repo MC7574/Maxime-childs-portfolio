@@ -1,0 +1,296 @@
+body {
+  background-color: #eae1ff;
+  font-family: 'Neue Haas Display',sans-serif;
+  color: #131520;
+  font-size: 16px;
+  line-height: 1;
+  src: url("61a4b38f825dbae6d31a2921_NeueHaasDisplay-Mediu.woff") format('woff'),url("61a4b38f825dba8b4c1a2922_NeueHaasDisplay-Mediu.ttf") format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap font-family 'Neue Haas Display';
+  src: url("61a4b38f825dba1e551a2923_NeueHaasDisplay-Roman.woff") format('woff'),url("61a4b38f825dba13e91a2924_NeueHaasDisplay-Roman.ttf") format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  padding: auto;
+  padding-bottom: 48px
+}
+
+.container {
+  z-index: 1;
+  width: 100%;
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 32px;
+  padding-left: 32px
+}
+.header {
+  align-items: center;
+}
+
+.mail-cliquable {
+  position: relative;
+  vertical-align: top;
+  display: flex;
+  margin-left: 56%;
+  color: #000;
+  align-items: baseline;
+  text-decoration: none;
+}
+
+.mail-cliquable a {
+  color: #000;
+  align-items: baseline;
+  text-decoration: none;
+}
+
+.logomc {
+  position: left;
+  margin-top: 7%;
+  align-items: center;
+  display: flex;
+  flex: 1 1 10%;
+  margin-left: 15%;
+}
+
+.liens-contact {
+  display: flex;
+  flex: 1 1 50%;
+  margin-left: 15%;
+}
+
+.introduction {
+  position: left;
+  display: flex;
+  text-align: justify;
+}
+
+.texte-intro {
+  position: left;
+  display: block;
+  text-align: start;
+}
+
+.photo-hero {
+  vertical-align: middle;
+  display: flex;
+  position: right;
+  background-color: #eae1ff;
+  width: 100%;
+  height: 100%;
+  margin-top: 3%;
+}
+
+.a-propos {
+  display: block;
+  width: 35%;
+  height: 50%;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+.img .group1 {
+  margin: 5%;
+  height : 251px;
+  width: 400px;
+}
+
+.photos-parcours { 
+  display: block;
+  margin: 1%;
+  margin-right: 11%;
+  align-items: center;
+  border-radius: 5%
+}
+
+.photos-parcours img {
+  border-radius: 10px;
+}
+
+
+.textes-parcours {
+  display: block;
+  height : 281px;
+  width: 500px;
+  align-content: space-around;
+  text-align: left;
+}
+
+.textes-parcours1 {
+  display: block;
+  height : 281px;
+  width: 400px;
+  margin-left: 11%;
+  align-content: space-around;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-top: 5%;
+  align-items: flex-end ;
+}
+
+.footer-logo img {
+  width: 70px;
+}
+
+.liens-footer {
+  display: flex;
+  flex: 1 1 50%;
+  flex-direction: row;
+  margin-left: 44.75%;
+}
+
+.footer {
+  display: block;
+  position: bottom;
+}
+
+.fleche img {
+  width: 50px;
+  align-items: baseline;
+}
+
+.localisation {
+  margin-top: 12%;
+  display: flex;
+  flex: row;
+  align-items: flex-start;  
+}
+
+.hero {
+  display: flex;
+  flex: 1 1 50%;
+  margin-left: 15%;
+}
+
+.hero img {
+  width: 90%;
+}
+
+.localisation img {
+  width: 35px;
+  margin-right: 12px;
+}
+
+.hero > div {
+  flex: 1 1 50%;
+  width: 50%;
+}
+
+.item1 {
+  display: flex;
+  flex: 1 1 60%;
+  margin-top: 10%;
+  margin-left: 15%;
+  
+}
+
+.item2 {
+  display: flex;
+  flex: 1 1 60%;
+  margin-top: 10%;
+  margin-left: 15%;
+}
+
+.item3 {
+  display: flex;
+  flex: 1 1 60%;
+  margin-top: 10%;
+  margin-left: 15%;
+}
+
+
+.header {
+  position: top;
+
+}
+
+.h3 > div {
+  position: left;
+  flex: 1 1 50%;
+  margin-left: 10%;
+}
+
+.body main div .item3 {
+  width: 500px;
+  height: 250px;
+}
+
+.group1 {
+  width: 500px;
+  height: 281px;
+}
+
+.logonom {
+  display: flex;
+  align-content: flex-end;
+}
+
+.logonom img {
+  width:35px;
+}
+
+
+.linkedin1 {
+  display: flex;
+  margin-left: 1%;
+  align-items: flex-end;
+}
+
+.linkedin1 a {
+  color: #000;
+  text-decoration: none;
+}
+
+
+.dites-bonjour {
+  display: flex;
+  color: #131520;
+  text-decoration: none;
+  margin-right:10%;
+  align-content: center;
+}
+
+.dites-bonjour a {
+  display: flex;
+  align-items: flex-end;
+  color: #000;
+  text-decoration: none;
+}
+
+.mailto {
+  color: #131520;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.Paris {
+  display: flex;
+  flex: row;
+  align-items: flex-start;
+}
+
+.copyright {
+  display: flex;
+  flex: row;
+  align-items: flex;
+  margin-left: 15%;
+}
+
+.copyright img {
+  width: 25px;
+}
+
+.maxx {
+  margin-left: 1%;
+  white-space: nowrap;
+}
+
+.a-propos {
+  text-align: justify;
+}
